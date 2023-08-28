@@ -11,5 +11,3 @@ class RefereeAssistantRestApplicationTests {
 	}
 
 }
-
-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
