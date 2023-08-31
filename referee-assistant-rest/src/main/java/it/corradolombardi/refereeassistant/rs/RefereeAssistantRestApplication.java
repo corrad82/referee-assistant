@@ -1,4 +1,4 @@
-package it.corradolombardi.refereeassistantrest;
+package it.corradolombardi.refereeassistant.rs;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
