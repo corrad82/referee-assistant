@@ -14,6 +14,10 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>referee-assistant</name>
     <description>RESTful API to create volleyball referees appointments</description>
+    <modules>
+        <module>referee-assistant-rest</module>
+        <module>referee-assistant-core</module>
+    </modules>
     <properties>
         <java.version>11</java.version>
     </properties>
@@ -38,10 +42,10 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-quartz</artifactId>
         </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-security</artifactId>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.springframework.boot</groupId>-->
+<!--            <artifactId>spring-boot-starter-security</artifactId>-->
+<!--        </dependency>-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
