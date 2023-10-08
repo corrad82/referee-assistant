@@ -17,6 +17,7 @@
     <modules>
         <module>referee-assistant-rest</module>
         <module>referee-assistant-core</module>
+        <module>referee-assistant-logic</module>
     </modules>
     <properties>
         <java.version>11</java.version>
